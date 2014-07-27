@@ -13,7 +13,8 @@
         android:id="@+id/main_price_input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/main_price_hint"
+        android:inputType="numberDecimal"
+        tools:hint="@string/main_price_hint"
         />
 
 </LinearLayout>
